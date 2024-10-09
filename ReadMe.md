@@ -19,8 +19,8 @@ After each operation (compression, encryption, and saving), the API responds wit
 1. **Clone the repository**:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/VanshK123/CompEnc.git
+   cd CompEnc
    ```
 
 2. **Build the project using Maven**:
@@ -60,13 +60,14 @@ Replace `/path/to/your/file.pdf` with the actual path to the file you want to up
 2. **Example Response**:
 
    Upon successful file upload and processing, the API will return a response like this:
-
+   
+   Sample 4.4Mb pdf time stats:
    ```bash
    File uploaded, compressed, and encrypted successfully.
-   Compression Time: 120 ms
-   Encryption Time: 50 ms
-   Saving Time: 75 ms
-   Total Processing Time: 245 ms
+   Compression Time: 72 ms
+   Encryption Time: 59 ms
+   Saving Time: 4 ms
+   Total Processing Time: 135 ms
    ```
 
 3. **Locate the Encrypted File**:
